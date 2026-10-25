@@ -9,7 +9,12 @@ material = "1.13.0"
 activity = "1.12.4"
 constraintlayout = "2.2.1"
 
+room_ver = "2.8.5"
+
 [libraries]
+
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room_ver"}
+
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
