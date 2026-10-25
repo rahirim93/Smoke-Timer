@@ -4,7 +4,7 @@
             "outputFile": "com.example.smoketimer.app-mergeDebugResources-33:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\35d3d369bd17e23e55976959bbb72356\\workspace\\transformed\\material-1.13.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\288ef6a3d0563badad832145cf1ba818\\workspace\\transformed\\material-1.13.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,22,31,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\2e65ed38b6636fdba542bc8825880c92\\workspace\\transformed\\appcompat-1.7.1\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\1e3a7fcd978d1d3fce9841444652304b\\workspace\\transformed\\appcompat-1.7.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

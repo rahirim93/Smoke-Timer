@@ -4,7 +4,7 @@
             "outputFile": "com.example.smoketimer.app-mergeDebugResources-33:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\2e65ed38b6636fdba542bc8825880c92\\workspace\\transformed\\appcompat-1.7.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\1e3a7fcd978d1d3fce9841444652304b\\workspace\\transformed\\appcompat-1.7.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",
