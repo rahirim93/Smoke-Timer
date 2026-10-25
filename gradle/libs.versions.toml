@@ -10,9 +10,9 @@ activity = "1.12.4"
 constraintlayout = "2.2.1"
 
 room_ver = "2.8.5"
+ksp_ver = "2.3.12"
 
 [libraries]
-
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room_ver"}
 
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -25,5 +25,7 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 
 [plugins]
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp_ver"}
+
 android-application = { id = "com.android.application", version.ref = "agp" }
 
