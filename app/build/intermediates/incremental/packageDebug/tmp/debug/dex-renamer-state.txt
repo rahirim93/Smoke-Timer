@@ -1,4 +1,4 @@
-#Sat Oct 24 11:28:19 MSK 2026
+#Sun Oct 25 04:05:58 MSK 2026
 base.0=C\:\\Users\\Viacheslav\\Desktop\\Smoke-Timer\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Viacheslav\\Desktop\\Smoke-Timer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Viacheslav\\Desktop\\Smoke-Timer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex

@@ -4,7 +4,7 @@
             "outputFile": "com.example.smoketimer.app-mergeDebugResources-33:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\878ee0288dce6f67a85368a41b004119\\workspace\\transformed\\core-1.17.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\9e78da05124e73ebb795af324069a44e\\workspace\\transformed\\core-1.17.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\73467529376bb969353176937d2c3722\\workspace\\transformed\\appcompat-1.7.1\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\2e65ed38b6636fdba542bc8825880c92\\workspace\\transformed\\appcompat-1.7.1\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
