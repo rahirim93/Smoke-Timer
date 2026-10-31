@@ -9,11 +9,13 @@ material = "1.13.0"
 activity = "1.12.4"
 constraintlayout = "2.2.1"
 
-room_ver = "2.8.5"
+room_ver = "3.0.3"
 ksp_ver = "2.3.12"
+roomCommonJvm = "2.8.5"
 
 [libraries]
-androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room_ver"}
+androidx-room-runtime = { group = "androidx.room3", name = "room3-runtime", version.ref = "room_ver"}
+androidx-room-compiler = { group = "androidx.room3", name = "room3-compiler", version.ref = "room_ver"}
 
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -23,6 +25,7 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-room-common-jvm = { group = "androidx.room", name = "room-common-jvm", version.ref = "roomCommonJvm" }
 
 [plugins]
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp_ver"}

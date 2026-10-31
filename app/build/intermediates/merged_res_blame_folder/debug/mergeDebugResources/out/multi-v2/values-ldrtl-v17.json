@@ -4,7 +4,7 @@
             "outputFile": "com.example.smoketimer.app-mergeDebugResources-33:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\288ef6a3d0563badad832145cf1ba818\\workspace\\transformed\\material-1.13.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\Viacheslav\\.gradle\\caches\\9.2.1\\transforms\\49b01c4146bbaec4771d65247f9aacb6\\workspace\\transformed\\material-1.13.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

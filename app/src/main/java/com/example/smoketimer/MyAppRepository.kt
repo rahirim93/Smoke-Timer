@@ -8,7 +8,7 @@ import com.example.smoketimer.database.SmokeEntity
 import java.lang.IllegalStateException
 import java.util.concurrent.Executors
 
-private const val DATABASE_NAME = "myApp_database"
+private const val DATABASE_NAME = "smokeApp_database"
 
 class MyAppRepository private constructor(context: Context){
 
@@ -32,13 +32,13 @@ class MyAppRepository private constructor(context: Context){
         }
     }
 
-    fun updateItem(item: SmokeEntity?){
+    fun updateItem(item: SmokeEntity){
         executor.execute {
             smokeDao.updateItem(item)
         }
     }
 
-    fun deleteItem(item: SmokeEntity?){
+    fun deleteItem(item: SmokeEntity){
         executor.execute {
             smokeDao.deleteItem(item)
         }

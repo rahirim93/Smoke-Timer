@@ -1,6 +1,6 @@
 plugins {
-    alias (libs.plugins.ksp)
-
+    //alias (libs.plugins.ksp)
+    id("com.google.devtools.ksp")
     alias(libs.plugins.android.application)
 }
 
@@ -35,6 +35,10 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 ksp {
@@ -44,7 +48,11 @@ ksp {
 
 dependencies {
 
-    implementation(libs.androidx.room.runtime)
+    //implementation(libs.androidx.room.runtime)
+    //implementation(libs.androidx.room.common.jvm)
+    //ksp(libs.androidx.room.compiler)
+    implementation("androidx.room:room-runtime:2.8.5")
+    ksp("androidx.room:room-compiler:2.8.5")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

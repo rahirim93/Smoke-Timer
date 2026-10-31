@@ -1,7 +1,12 @@
 package com.example.smoketimer.database
 
 import androidx.lifecycle.LiveData
-import androidx.room.*
+import androidx.room.Dao
+import androidx.room.Delete
+import androidx.room.Insert
+import androidx.room.Query
+import androidx.room.Update
+
 
 @Dao
 interface SmokeDao {
@@ -16,9 +21,9 @@ interface SmokeDao {
     fun addItem(item: SmokeEntity)
 
     @Update
-    fun updateItem(item: SmokeEntity?)
+    fun updateItem(item: SmokeEntity)
 
     @Delete
-    fun deleteItem(item: SmokeEntity?)
+    fun deleteItem(item: SmokeEntity)
 
 }

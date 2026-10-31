@@ -4,7 +4,8 @@ import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 
-@Database(entities = [ Unit::class ], version = 1)
+
+@Database(entities = [SmokeEntity::class ], version = 1)
 @TypeConverters(SmokeTypeConverters::class)
 abstract class SmokeDatabase : RoomDatabase() {
 
